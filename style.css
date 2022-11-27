@@ -1,0 +1,280 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
+}
+.logo nav-link {
+  color: black;
+  font-family: 'Cinzel', serif;
+}
+
+body {
+  color: black;
+  padding: 90px 0 0 0;
+}
+
+h2, 
+h1,
+.grupo-2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.paginacompleta {
+  width: 100%;
+  max-width: 1300px;
+  
+  margin: 0 auto;
+  border: 5px solid;
+}
+
+.header {
+  background-color: #1b2220;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 10px 40px;
+  line-height: 80px;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 992;
+  margin: o auto;
+}
+
+.nav-link{
+  color: #ffffff;
+  text-decoration: none;
+  font-family:'Roboto', sans-serif;
+}
+
+.nav-menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item{
+  font-size: 15px;
+  margin: 0 10px;
+  padding-top: 10px;
+  line-height: 85px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link{
+  padding: 8px 13px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+  background-color: #1c352a4f;
+  transition: 0.5s;
+}
+
+.nav-toggle{
+  color: #ffffff;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+ display: none;
+}
+
+.encabezado-img {
+  font-size: 25px;
+  background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/1045912906425958410/1046131848985714808/Portada.jpg);
+  height: 350px;
+  width: 100%;
+  /*margin-top: -90px;*/
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.693);
+}
+
+.catalogo1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.caja img{
+  height: 280px;
+  width: 280px;
+  border-radius: 15px;
+}
+
+.caja{
+  margin: 15px;
+}
+
+.caja p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Plataformas{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.finalFooter {
+  width: 100%;
+  background-color: #1b2220;
+  color: #ffffff;
+}
+
+.finalFooter .grupo-1{
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 40px 0 0 0;
+  padding-left: 10px;
+}
+
+.finalFooter .grupo-1 .cajafooter figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalFooter .grupo-1 .cajafooter figure img{
+  width: 65px;
+}
+
+.finalFooter .grupo-1 .cajafooter h2{
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.finalFooter .grupo-1 .cajafooter p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.finalFooter .grupo-1 .redsocial a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #ffffff;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.finalFooter .grupo-1 .redsocial a:hover {
+  color: #66fdbc94;
+}
+
+.finalFooter .grupo-2{
+  background-color: #0a1a2a5c;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.finalFooter .grupo-2 small{
+  font-size: 15px;
+}
+
+/*moviles*/
+@media screen and (max-width: 950px){
+  body {
+    padding: 60px 0 0 0;
+  }
+
+ .header{
+  height:75px;
+ }
+
+ .logo{
+  font-size: 25px;
+  padding: 10px 0 10px 20px;
+  line-height: 60px;
+ }
+
+ .nav-menu{
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #252525;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  padding: 20px 0;
+
+  height: calc(100% - 60px);
+  overflow-y: auto;
+
+  left: 100%;
+  transition: left 0.3s;
+ }
+
+ .nav-menu-item{
+  line-height: 70px;
+ }
+
+ .nav-menu-link:hover{
+  background: none;
+  color: #7f7f7f;
+ }
+
+ .nav-toggle{
+  display: block;
+ }
+
+ .nav-menu_visible{
+  left: 0;
+ }
+ 
+ .nav-toggle:focus:not(:focus-visible) {
+  outline: none;
+ }
+
+ .nav-menu_visible{
+  left: 0;
+ }
+ 
+ .nav-toggle:focus:not(:focus-visible) {
+  outline: none;
+ }
+
+ .finalFooter .grupo-1{
+  width: 90%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  padding: 35px 0px;
+ }
+
+}

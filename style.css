@@ -33,7 +33,7 @@ p {
 }
 
 .header {
-  background-color: #1b2220;
+ background-color: #1b2220af;
   height: 100px;
   position: fixed;
   width: 100%;
@@ -84,7 +84,7 @@ p {
 }
 
 .nav-menu-link:hover{
-  background-color: #1c352a4f;
+  background-color: #1c352a9c;
   transition: 0.5s;
 }
 
@@ -103,9 +103,9 @@ p {
 .encabezado-img {
   font-size: 25px;
   background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/1045912906425958410/1046131848985714808/Portada.jpg);
-  height: 350px;
+  height: 500px;
   width: 100%;
-  /*margin-top: -90px;*/
+  margin-top: -100px;
   background-size: cover;
   display: flex;
   flex-direction: column;

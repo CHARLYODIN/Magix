@@ -19,7 +19,7 @@ h1,
   font-family: 'Roboto', sans-serif;
 }
 
-p {
+p{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
@@ -84,7 +84,7 @@ p {
 }
 
 .nav-menu-link:hover{
-  background-color: #1c352a9c;
+  background-color: #3d8666a6;
   transition: 0.5s;
 }
 
@@ -121,9 +121,10 @@ p {
 }
 
 .caja img{
-  height: 280px;
-  width: 280px;
+  height: 160px;
+  width: 160px;
   border-radius: 15px;
+  box-shadow: 5px 5px rgba(51, 51, 51, 0.122);
 }
 
 .caja{
@@ -136,10 +137,41 @@ p {
   font-weight: bold;
 }
 
+.Pedirtexto{
+  color: #000000;
+}
+
+.Pedirenlace{
+  text-decoration: none;
+}
+
+.PedirProducto{
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 160px;
+  background-color: #00bd819b;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px rgba(108, 108, 108, 0.276);
+}
+
 .Plataformas{
   text-decoration: none;
   color: #ffffff;
 }
+
+.Plataformas:hover{
+  background-color: #3d8666a6;
+  transition: 0.2s;
+  border-radius: 5px;
+  padding: 0px 6px;
+}
+
+.IconoRed:hover{
+  background-color: #3d8666a6;
+  border-radius: 100px;
+  transition: 2s;
+} 
 
 .finalFooter {
   width: 100%;
@@ -197,7 +229,7 @@ p {
 }
 
 .finalFooter .grupo-2{
-  background-color: #0a1a2a5c;
+  background-color: #1523366d;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
@@ -276,5 +308,4 @@ p {
   grid-gap: 30px;
   padding: 35px 0px;
  }
-
 }

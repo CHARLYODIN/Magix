@@ -25,6 +25,23 @@ h5,
   font-family: 'Roboto', sans-serif;
 }
 
+h1,
+H2{
+  text-shadow: 1px 1px 1px #00000068;
+  text-shadow: 1px 2px 2px #00000068;
+  text-shadow: 1px 3px 3px #00000068;
+  text-shadow: 1px 4px 4px #00000068;
+  text-shadow: 1px 5px 5px #00000068;
+  text-shadow: 1px 6px 6px #00000068;
+  text-shadow: 1px 7px 7px #00000068;
+}
+
+h1:hover{
+  transition-duration: .8s;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-7%);
+}
+
 p{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -53,7 +70,6 @@ p{
   padding: 10px 10px 40px;
   line-height: 80px;
 }
-
 
 .nav{
   display: flex;
@@ -119,6 +135,28 @@ p{
   align-items: center;
   color: rgba(255, 255, 255, 0.904);
   letter-spacing: 5px;
+}
+
+.Cuadros{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Cuadro{
+  padding: 2px 1px;
+  margin: 50px;
+  width: 165px;
+  background-color: #ffffffe8;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
+  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
+  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
+  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
+  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+  text-align: center;
 }
 
 .catalogo1 {
@@ -320,6 +358,14 @@ p{
  
  .nav-toggle:focus:not(:focus-visible) {
   outline: none;
+ }
+
+ .Cuadro{
+  padding-top: 13px;
+  margin: 17px;
+  width: 155px;
+  height: 50px;
+  border-radius: 7px;
  }
 
  .finalFooter .grupo-1{

@@ -25,23 +25,6 @@ h5,
   font-family: 'Roboto', sans-serif;
 }
 
-h1,
-H2{
-  text-shadow: 1px 1px 1px #00000068;
-  text-shadow: 1px 2px 2px #00000068;
-  text-shadow: 1px 3px 3px #00000068;
-  text-shadow: 1px 4px 4px #00000068;
-  text-shadow: 1px 5px 5px #00000068;
-  text-shadow: 1px 6px 6px #00000068;
-  text-shadow: 1px 7px 7px #00000068;
-}
-
-h1:hover{
-  transition-duration: .8s;
-  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-7%);
-}
-
 p{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -137,6 +120,22 @@ p{
   letter-spacing: 5px;
 }
 
+.Titulo{
+  text-shadow: 1px 1px 1px #00000068;
+  text-shadow: 1px 2px 2px #00000068;
+  text-shadow: 1px 3px 3px #00000068;
+  text-shadow: 1px 4px 4px #00000068;
+  text-shadow: 1px 5px 5px #00000068;
+  text-shadow: 1px 6px 6px #00000068;
+  text-shadow: 1px 7px 7px #00000068;
+}
+
+.Titulo:hover{
+  transition-duration: .8s;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-7%);
+}
+
 .Cuadros{
   width: 100%;
   display: flex;
@@ -174,11 +173,24 @@ p{
 
 .caja{
   margin: 15px;
+  max-width: 165px;
 }
 
 .caja p{
   text-align: center;
   font-size: 15px;
+  font-weight: bold;
+}
+
+.caja h3{
+  text-align: center;
+  font-weight: bold;
+}
+
+.Precio h3{
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px #4efc2bf8;
   font-weight: bold;
 }
 
@@ -194,7 +206,7 @@ p{
   font-family: 'Roboto', sans-serif;
   display: block;
   width: 165px;
-  background-color: #00bd819b;
+  background-color: #07d3b180;
   align-items: center;
   border-radius: 15px;
   box-shadow: 3px 3px rgba(108, 108, 108, 0.276);
@@ -206,7 +218,7 @@ p{
 }
 
 .Precio{
-  color: rgb(56, 185, 31);
+  color: #38b91f;
 }
 
 .MasCaro{

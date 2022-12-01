@@ -118,6 +118,7 @@ p{
   align-items: center;
   color: rgba(255, 255, 255, 0.904);
   letter-spacing: 5px;
+  text-align: center;
 }
 
 .Titulo{
@@ -169,6 +170,16 @@ p{
   width: 165px;
   border-radius: 15px;
   box-shadow: 5px 5px rgba(51, 51, 51, 0.122);
+}
+
+.caja img:hover{
+  box-shadow: 1px 1px 1px 1px rgba(45, 45, 45, 0.276);
+  box-shadow: 2px 2px 2px 2px rgba(45, 45, 45, 0.276);
+  box-shadow: 3px 3px 3px 3xp rgba(45, 45, 45, 0.276);
+  box-shadow: 4px 4px 4px 4px rgba(45, 45, 45, 0.276);
+  box-shadow: 5px 5px 5px 5px rgba(45, 45, 45, 0.276);
+  transition: 0.7s;
+  transform: translateY(-7%);
 }
 
 .caja{
@@ -371,6 +382,14 @@ p{
  .nav-toggle:focus:not(:focus-visible) {
   outline: none;
  }
+
+ .encabezado-img{
+  font-size: 25px;
+  height: 400px;
+  width: 100%;
+  margin-top: -100px;
+  letter-spacing: 3px;
+}
 
  .Cuadro{
   padding-top: 6px;

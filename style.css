@@ -105,6 +105,14 @@ p{
  display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a[name] {
+  scroll-margin-top: 100px;
+}
+
 .encabezado-img {
   font-size: 25px;
   background: linear-gradient(rgba(44, 44, 44, 0.275), rgba(44, 44, 44, 0.275)), url(https://cdn.discordapp.com/attachments/1045912906425958410/1046131848985714808/Portada.jpg);
@@ -327,12 +335,12 @@ p{
   }
 
  .header{
-  height:75px;
+  height:65px;
  }
 
  .logo{
   font-size: 25px;
-  padding: 10px 0 10px 20px;
+  padding: 3px 0 10px 20px;
   line-height: 60px;
  }
 
@@ -340,10 +348,10 @@ p{
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background-color: #252525;
+  background-color: #1b2220fc;
   position: fixed;
   left: 0;
-  top: 60px;
+  top: 63px;
   width: 100%;
   padding: 20px 0;
 
@@ -351,16 +359,16 @@ p{
   overflow-y: auto;
 
   left: 100%;
-  transition: left 0.3s;
+  transition: left 0.5s;
  }
 
  .nav-menu-item{
-  line-height: 70px;
+  line-height: 60px;
  }
 
  .nav-menu-link:hover{
   background: none;
-  color: #7f7f7f;
+  color: #77f7ea;
  }
 
  .nav-toggle{
@@ -382,6 +390,10 @@ p{
  .nav-toggle:focus:not(:focus-visible) {
   outline: none;
  }
+
+ a[name] {
+  scroll-margin-top: 75px;
+}
 
  .encabezado-img{
   font-size: 25px;

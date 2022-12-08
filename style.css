@@ -3,6 +3,7 @@
  margin: 0;
  box-sizing: border-box; 
 }
+
 .logo nav-link {
   color: black;
   font-family: 'Cinzel', serif;
@@ -396,10 +397,10 @@ a[name] {
 }
 
  .encabezado-img{
-  font-size: 25px;
-  height: 400px;
+  font-size: 20px;
+  height: 350px;
   width: 100%;
-  margin-top: -100px;
+  margin-top: -60px;
   letter-spacing: 3px;
 }
 

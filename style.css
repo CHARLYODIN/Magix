@@ -398,7 +398,7 @@ a[name] {
 
  .encabezado-img{
   font-size: 20px;
-  height: 350px;
+  height: 280px;
   width: 100%;
   margin-top: -60px;
   letter-spacing: 3px;
@@ -411,6 +411,20 @@ a[name] {
   height: 35px;
   border-radius: 7px;
  }
+
+ .caja img{
+  height: 135px;
+  width: 135px;
+}
+
+ .caja{
+  margin: 7px;
+  max-width: 135px;
+}
+
+.PedirProducto{
+  width: 135px;
+}
 
  .finalFooter .grupo-1{
   width: 90%;

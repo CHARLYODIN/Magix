@@ -61,7 +61,7 @@ p{
   justify-content: space-between;
 
   max-width: 992;
-  margin: o auto;
+  margin: 0 auto;
 }
 
 .nav-link{
@@ -152,6 +152,7 @@ a[name] {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .Cuadro{
@@ -173,11 +174,12 @@ a[name] {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .caja img{
-  height:165px;
-  width: 165px;
+  height: 165px;
+  width: 175px;
   border-radius: 15px;
   box-shadow: 5px 5px rgba(51, 51, 51, 0.122);
 }
@@ -193,7 +195,7 @@ a[name] {
 }
 
 .caja{
-  margin: 15px;
+  margin: 25px;
   max-width: 165px;
 }
 
